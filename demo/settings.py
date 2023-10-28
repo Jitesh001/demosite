@@ -77,9 +77,11 @@ WSGI_APPLICATION = 'demo.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'demo',
-        'USER' : 'profile',
-        'PASSWORD' : 'Profile@3456',
+        'NAME': 'railway',
+        'USER' : 'postgres',
+        'PASSWORD' : 'Dg5dEd2-a54-C5BdDBdG5544b3FDG*eE',
+        'HOST' : 'viaduct.proxy.rlwy.net',
+        'PORT' : '31873',
     }
 }
 
